@@ -1,0 +1,53 @@
+body{
+    font-family: 'Geist', sans-serif;
+    background-color: #e8edea;
+    /* border: 2px, solid, black; */
+    margin-right: 400px; 
+    margin-left: 400px; 
+}
+
+nav{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.me{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-placeholder{
+    width: 48px;
+    height: 48px;
+    background-color: #ccc;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.me p{
+    margin: 0;
+}
+
+.presentation{
+    color: grey;
+}
+
+.tools-grid{
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.tool-card img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+    display: block;
+}
+
+.tool-card a:hover img{
+    transform: scale(1.2);
+}
