@@ -2,8 +2,11 @@ body{
     font-family: 'Geist', sans-serif;
     background-color: #e8edea;
     /* border: 2px, solid, black; */
-    margin-right: 400px; 
-    margin-left: 400px; 
+    margin-right: 400px;
+    margin-left: 400px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -50,4 +53,35 @@ nav{
 
 .tool-card a:hover img{
     transform: scale(1.2);
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding: 1.75rem 0;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 0.8125rem;
+    color: gray;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.25rem;
+}
+
+footer a {
+    font-size: 0.8125rem;
+    color: gray;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+footer a:hover {
+    color: #111;
 }
